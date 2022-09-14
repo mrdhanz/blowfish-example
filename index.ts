@@ -1,6 +1,6 @@
 import Blowfish from "blowfish-node";
 
-const bf = new Blowfish('super key', Blowfish.MODE.CBC, Blowfish.PADDING.PKCS5); // only key isn't optional
+const bf = new Blowfish('super key', Blowfish.MODE.EBC, Blowfish.PADDING.PKCS5); // only key isn't optional
 bf.setIv('abcdefgh'); // optional for ECB mode; bytes length should be equal 8
 
 const encoded = bf.encode('input text even with emoji 🎅');
