@@ -1,0 +1,19 @@
+{
+  "name": "blowfish-example",
+  "version": "1.0.0",
+  "description": "example to use blowfish",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-ts": "ts-node index.ts"
+  },
+  "author": "mrdhanz",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "blowfish-node": "^1.1.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.2.1"
+  }
+}
